@@ -29,8 +29,3 @@ Ce projet Java vous permet de créer une base de données, de gérer des tables 
 
 **Afficher la base de données:** L'application affiche des messages dans la console indiquant le succès ou l'échec des opérations sur la base de données. Les messages en vert indiquent le succès, et les messages en rouge indiquent des erreurs.
 
-
-## Remerciements
-
-Merci à Mr. BADDI  pour le projet.
-
