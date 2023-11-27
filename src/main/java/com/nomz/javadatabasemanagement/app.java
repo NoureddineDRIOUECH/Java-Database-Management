@@ -8,7 +8,8 @@ import com.nomz.javadatabasemanagement.dataaccessobject.DBdeletion;
 import java.sql.Connection;
 import java.util.Scanner;
 
-public class app {public static void main(String[] args) {
+public class app {
+    public static void main(String[] args) {
     String dbName;
     System.out.print("Enter DB name: ");
     Scanner in = new Scanner(System.in);
@@ -20,8 +21,7 @@ public class app {public static void main(String[] args) {
 //    } else {
 //        System.out.println("Connection established successfully.");
 ////    }
-//    DBdeletion.deleteDatabase(dbName);
-    ChowDB.chowDB(dbName);
+   DBdeletion.deleteDatabase(dbName);
     System.out.println("done");
 }
 }
