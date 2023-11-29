@@ -1,5 +1,4 @@
 package com.nomz.javadatabasemanagement.dataaccessobject;
-
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.SQLException;
@@ -16,7 +15,6 @@ public class DBconnection {
     public static Connection getConnection(String dbName){
         try {
             connection = DriverManager.getConnection(String.format("jdbc:mysql://%s:%d/%s", HOST,PORT,dbName),USERNAME,PASSWORD);
-            System.out.println(ANSI_GREEN + "Connection established successfully." + ANSI_RESET);
         } catch (SQLException e){
             e.printStackTrace();
         }
