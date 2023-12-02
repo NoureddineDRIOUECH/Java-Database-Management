@@ -1,6 +1,3 @@
-<<<<<<< HEAD
-package com.nomz.javadatabasemanagement.dataaccessobject;public class DBTableDeletion {
-=======
 package com.nomz.javadatabasemanagement.dataaccessobject;
 
 import java.sql.Connection;
@@ -21,5 +18,4 @@ public class DBTableDeletion {
             e.printStackTrace();
         }
     }
->>>>>>> cfd6a6626ff97798ef6f9a6a18e1a3718d6b37d0
 }
