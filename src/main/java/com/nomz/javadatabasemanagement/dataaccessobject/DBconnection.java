@@ -4,7 +4,7 @@ import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.SQLException;
 public class DBconnection {
-    private static final String ANSI_GREEN = "\u001B[32m";
+    private static final String GREEN = "\u001B[32m";
     // ANSI escape code to reset color
     private static final String ANSI_RESET = "\u001B[0m";
     //Declaration des variables pour la connection
@@ -16,7 +16,6 @@ public class DBconnection {
     public static Connection getConnection(String dbName){
         try {
             connection = DriverManager.getConnection(String.format("jdbc:mysql://%s:%d/%s", HOST,PORT,dbName),USERNAME,PASSWORD);
-            System.out.println(ANSI_GREEN + "Connection established successfully." + ANSI_RESET);
         } catch (SQLException e){
             e.printStackTrace();
         }
