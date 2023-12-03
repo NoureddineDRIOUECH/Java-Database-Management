@@ -1,6 +1,6 @@
 # Java Database Management
 
-![Java](https://img.shields.io/badge/Java-11-green)
+![Java](https://img.shields.io/badge/Java-21-green)
 ![Database](https://img.shields.io/badge/Database-MySQL-blue)
 
 Ce projet Java vous permet de créer une base de données, de gérer des tables et d'insérer des données à l'aide de Java Database Connectivity (JDBC).
