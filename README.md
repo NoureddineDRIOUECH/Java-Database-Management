@@ -7,7 +7,7 @@ Ce projet Java vous permet de créer une base de données, de gérer des tables 
 
 ## Configuration
 
-1. Assurez-vous d'avoir Java 11 installé sur votre système.
+1. Assurez-vous d'avoir Java 21 installé sur votre système.
 
 2. Téléchargez et configurez les pilotes JDBC appropriés pour votre base de données. Dans cet exemple, nous utilisons MySQL.
 
